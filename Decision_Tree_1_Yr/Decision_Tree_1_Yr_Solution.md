@@ -43,14 +43,14 @@ p_HU_T0 <- 26 / 1464  # probability of becoming Unhealthy when Healthy under con
 p_HU_T1 <- 13 / 1456  # probability of becoming Unhealthy when Healthy under treatment (T1) 
 p_HD    <- 8  / 1825  # probability of Dying when Healthy
 
-## Costs
+# Costs
 C_H    <- 0     # annual cost of being Healthy (excluding treatment cost)
 C_U    <- 6000  # annual cost of being Unhealthy (excluding treatment cost)
 C_D    <- 0     # annual cost of being Dead
 C_T0   <- 0     # annual cost of conventional management (T0)
 C_T1   <- 1000  # annual cost of treatment (T1)
 
-## Utilities
+# Utilities
 U_H <- 0.9  # annual utility of being Healthy
 U_U <- 0.4  # annual utility of being Unhealthy
 U_D <- 0    # annual utility of being Dead
