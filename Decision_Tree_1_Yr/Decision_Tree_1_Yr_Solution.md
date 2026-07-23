@@ -31,7 +31,7 @@ library(tidyverse)
 library(knitr)
 ```
 
-### Defining Parameters
+## Defining Parameters
 
 Now we can define parameters based on the model description.
 
@@ -56,9 +56,9 @@ U_U <- 0.4  # annual utility of being Unhealthy
 U_D <- 0    # annual utility of being Dead
 ```
 
-### Building the 1 Year Decision Tree: Conventional Management (T0)
+## Building the 1 Year Decision Tree: Conventional Management (T0)
 
-# Conventional management (T0) has no initial cost so C_T0 is 0. Every patient enters the model in a Healthy state. From this root node patients may remain Healthy, become Unhealthy, or Die in the first-year.
+### Conventional management (T0) has no initial cost so C_T0 is 0. Every patient enters the model in a Healthy state. From this root node patients may remain Healthy, become Unhealthy, or Die in the first-year.
 
 ```{r}
 # pathway probabilities 
@@ -115,9 +115,9 @@ utility_T0_1_table <- tribble(
 kable(utility_T0_1_table, caption = "1-Year Pathway Utilities: T0")
 ```
 
-### Building the 1 Year Decision Tree: Treatment (T1)
+## Building the 1 Year Decision Tree: Treatment (T1)
 
-# The treatment (T1) has an annual cost of 1000 so C_T1 is 1000. Every patient receiving the treatment must pay the annual cost regardless of the outcome.
+### The treatment (T1) has an annual cost of 1000 so C_T1 is 1000. Every patient receiving the treatment must pay the annual cost regardless of the outcome.
 
 ```{r}
 # pathway probabilities 
@@ -172,7 +172,7 @@ utility_T1_1_table <- tribble(
 kable(utility_T1_1_table, caption = "1-Year Pathway Utility: T1")
 ```
 
-### Expected Cost and QALYs Per Strategy
+## Expected Cost and QALYs Per Strategy
 
 **\*\*Question: What is the expected cost of treatment in each strategy?**
 
@@ -269,7 +269,7 @@ exp_qaly_1yr <- tribble(
 kable(exp_qaly_1yr, caption = "1-Year: Expected QALY")
 ```
 
-### 1 Year ICER
+## 1 Year ICER
 
 **\*\*Question: What is the 1-year-cost-effectiveness of the new treatment?**
 
