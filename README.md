@@ -33,12 +33,11 @@ You only need the first paragraph of instructions for each.
 
 ## 2. Download a local version of this repository
 
-- Go to https://github.com/KateJohnson/PHAR422_Decision_modeling_R_tutorial
+- Go to (https://github.com/rachelyyann/PHAR-497-Decision-Tree-Model)
 - Under the green 'code' button (top right), 'download ZIP' to download a local copy of the entire repository and its contexts
-![ ](Figures/download_zip.PNG)
 - Unzip and open the repository from your downloads folder
-- Click to open the `PHAR22_Decision_modeling_R_tutorial.Rproj` folder (in RStudio, if asked)
-- We will work on `markov_model_tutorial.qmd`
+- Click to open the `PHAR22_Decision_Tree_1_Yr` folder (in RStudio, if asked)
+- We will work on `Decision_Tree_1_Yr_Tutorial.qmd`
 
 *Note: you may want to move the R project folder out of your downloads folder to a more logical place, such as where you store 
 class materials on your computer. You can do that within finder by dragging and dropping the entire folder to your preferred location.
