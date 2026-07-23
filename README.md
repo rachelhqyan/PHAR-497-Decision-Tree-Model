@@ -33,7 +33,7 @@ You only need the first paragraph of instructions for each.
 
 ## 2. Download a local version of this repository
 
-- Go to (https://github.com/rachelyyann/PHAR-497-Decision-Tree-Model)
+- Go to (https://github.com/rachelhqyan/PHAR-497-Decision-Tree-Model.git)
 - Under the green 'code' button (top right), 'download ZIP' to download a local copy of the entire repository and its contexts
 - Unzip and open the repository from your downloads folder
 - Click to open the `PHAR22_Decision_Tree_1_Yr` folder (in RStudio, if asked)
