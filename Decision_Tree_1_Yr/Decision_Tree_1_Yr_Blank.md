@@ -1,8 +1,4 @@
----
-title: "Healthy Unhealthy Decision Tree (1-Year Time Horizon)"
-output: html_document
-author: ---
----
+# Healthy Unhealthy Decision Tree (1-Year Time Horizon) With Solution
 
 ## Exercise 1: Decision Tree - 1 Year Time Horizon
   
